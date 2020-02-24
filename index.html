@@ -22,20 +22,24 @@
   <body>
     <div class="container-flex">
       <div id="view" class="row">
-        <div style="min-height: 100vm;" class="col-4">
+        <div style="min-height: 50vm; padding:0%" class="col-4">
           <div id="ppf" class="row">
-            <a href="index.html">past</a>
+            <a href="past.html">past</a>
           </div>
           <div id="ppf" class="row">
-            <h1>present</h1>
+            <a href="index.html">present</a>
           </div>
           <div id="ppf" class="row">
-            <a href="about.html">future</a>
+            <a href="index.html">future</a>
           </div>
 
-          <div id="bottomSquare" class="row"></div>
+          <div id="bottomSquare" class="row">
+            <div class="col-4">
+              hello
+            </div>
+          </div>
         </div>
-        <div class="col-8">
+        <div style="padding:0%" class="col-8">
           <main data-router-wrapper>
             <section data-router-view="home" class="home">
               <div class="home-content">
