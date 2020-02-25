@@ -8,14 +8,16 @@ html {
 }
 
 .home,
-.past {
+.past,
+.future {
   width: 68vw;
   position: absolute;
   height: 100vh;
 }
 
 .home-content,
-.past-content {
+.past-content,
+.future-content {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -26,13 +28,27 @@ html {
 .past {
   background-image: linear-gradient(to top, #8364fe 0%, #ffffff 100%);
 }
-
+.future {
+  background-image: linear-gradient(to top, #475947 0%, #375937 100%);
+}
 #ppf {
   justify-content: center;
   text-align: center;
+  background-color: purple;
+  height: 50vh;
+}
+
+#ppf a {
+  color: black;
+
+  margin: auto;
 }
 
 #bottomSquare {
-  background-color: red($color: #000000);
-  height: 100vh;
+  background-color: red;
+  height: 50vh;
+}
+.nav {
+  width: 100%;
+  padding: 5vh 0vh;
 }
